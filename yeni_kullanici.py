@@ -4,7 +4,7 @@ import os
 import sys
 
 path = os.path.dirname(os.path.abspath(__file__))
-detector = cv2.CascadeClassifier(path + r'\Classifiers\face.xml')
+detector = cv2.CascadeClassifier(path + r'\face.xml')
 
 camera = cv2.VideoCapture(0)
 camera.set(3, 640)
